@@ -1,0 +1,44 @@
+/*-------------------------------------------------Colours */
+
+    /*  header and footer background
+        page background (white)
+        class - default text (dark grey)
+        class - default header (aqua)
+        class - icon (aqua)
+        
+
+/*-------------------------------------------------General page rules */
+
+    /*  rule for sections - can only have one open at once
+        rule for sub section - when a different section is clicked on sub section collapses
+
+        INVESTIGATE - can i show part of the text on hover and the full text on click?
+
+        class icon 
+            - onhover / onclick / aria screen reader
+            - center align
+            - default size / weight
+        class - capitalize
+        class - text align to the left
+        class - text align to the center
+        class - drop down arrow. 
+                need to be able to toggle up and down
+
+        class - col -   set the columns that are three together on desktop to single file on mobile
+                        use the same class for the icons in the drop downs, and the skill circles. 
+
+
+/*-------------------------------------------------Header */
+
+/*-------------------------------------------------Footer */
+
+/* SPECIFIC PAGE SECTIONS */
+
+/*-------------------------------------------------About Me */
+/*-------------------------------------------------Work History */
+
+/*-------------------------------------------------Section */
+/*-------------------------------------------------Section */
+/*-------------------------------------------------Section */
+/*-------------------------------------------------Section */
+/*-------------------------------------------------Section */
