@@ -2,6 +2,8 @@
 
 This is my online CV for my role as a Full-stack Web Developer. 
 
+## Website
+https://littleblue418.github.io/CV-Full-Stack-Developer/.
 
 ### Preparation Tasks 
 - [x] Plan out site content
@@ -12,7 +14,7 @@ This is my online CV for my role as a Full-stack Web Developer.
 - [ ] Write out a pdf version of my CV
 - [ ] Adjustments based on feedback
 ##### Build
-- [ ] Nav element
+- [x] Nav element
 - [ ] Header element
 - [ ] Footer
 - [ ] About me section
