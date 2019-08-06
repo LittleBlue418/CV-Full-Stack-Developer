@@ -30,6 +30,92 @@
 
 /*-------------------------------------------------Header */
 
+.topBar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #f0f1f6;
+    height: 50px;
+    z-index: -1;
+}
+
+/*button {
+    border: none;
+    width: 150px;
+    height: 50px;
+    background-color: #f0f1f6; 
+    color: #4a4a4f;
+    cursor: pointer;
+  
+}*/
+
+.dropdownMenu {
+    list-style: none;
+    margin: 0;
+    position: absolute;
+    padding: 0;
+    left: 0;
+    right: 0;
+    top: 50;
+    width: 150px;
+    text-align: left;
+    font-size: 15px;
+    transform: translateY(-110%);
+    transition: transform .5s ease-in-out;
+    box-shadow: 0px 6px 15px 0px rgba(0,0,0,0.2);
+    z-index: -2;
+    background-color: #f0f1f6;
+}
+.dropdownItem {
+    padding-left:15px; 
+}
+
+.dropdownLink {
+    text-decoration: none;
+    display: block;
+    color: #4a4a4f;
+    padding: 10px 5px;
+    transition: background-color .2s ease-in-out;
+}
+
+.dropdownItem:hover {
+    background-color: #DBDCE0;
+    text-decoration: none;
+    color: #4a4a4f;
+}
+
+.dropdownLink:hover {
+    text-decoration: none;
+    color: #4a4a4f;
+}
+
+/*.dropdown {
+    width: 150px;
+    position: relative;
+}*/
+
+/*.dropdown:hover .hamburger {
+    background-color: #DBDCE0;
+}*/
+
+.dropdown:hover .dropdownMenu {
+    transform: translateY(0);
+}
+
+.hamburger {
+    height: 50px;
+    /*text-align: left;*/
+    padding-left: 15px;
+    display: flex;
+    align-items: center;
+    color: #5A5A5F;  
+}
+
+.hamburger .material-icons {
+    font-size: 36px;
+}
+
 /*-------------------------------------------------Footer */
 
 /* SPECIFIC PAGE SECTIONS */
