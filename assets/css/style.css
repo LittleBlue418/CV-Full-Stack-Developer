@@ -28,27 +28,17 @@
                         use the same class for the icons in the drop downs, and the skill circles. 
 
 
-/*-------------------------------------------------Header */
+/*-------------------------------------------------Nav */
 
 .topBar {
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
-    background-color: #f0f1f6;
+    background-color: #e1e0e7;
     height: 50px;
     z-index: -1;
 }
-
-/*button {
-    border: none;
-    width: 150px;
-    height: 50px;
-    background-color: #f0f1f6; 
-    color: #4a4a4f;
-    cursor: pointer;
-  
-}*/
 
 .dropdownMenu {
     list-style: none;
@@ -65,7 +55,7 @@
     transition: transform .5s ease-in-out;
     box-shadow: 0px 6px 15px 0px rgba(0,0,0,0.2);
     z-index: -2;
-    background-color: #f0f1f6;
+    background-color: #e1e0e7;
 }
 .dropdownItem {
     padding-left:15px; 
@@ -90,33 +80,54 @@
     color: #4a4a4f;
 }
 
-/*.dropdown {
-    width: 150px;
-    position: relative;
-}*/
-
-/*.dropdown:hover .hamburger {
-    background-color: #DBDCE0;
-}*/
-
 .dropdown:hover .dropdownMenu {
     transform: translateY(0);
 }
 
 .hamburger {
     height: 50px;
-    /*text-align: left;*/
     padding-left: 15px;
     display: flex;
     align-items: center;
     color: #5A5A5F;  
+    cursor: pointer;
+    bottom: 0;
 }
 
 .hamburger .material-icons {
     font-size: 36px;
 }
 
-/*-------------------------------------------------Footer */
+/*-------------------------------------------------Header */
+
+.header-background {
+    height: 100vw;
+    background: url("../images/banner-image2.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: -3;
+    top: 0;
+}
+
+h1.title,
+h2.role {
+    padding-left: 10%;
+}
+
+@media (min-width: 768px) {
+    .header-background {
+        height: 700px;
+    }
+}
+@media (min-width: 992px) { ... }
+@media (min-width: 1200px) { ... }
+
 
 /* SPECIFIC PAGE SECTIONS */
 
