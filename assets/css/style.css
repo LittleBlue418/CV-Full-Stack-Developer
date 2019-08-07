@@ -7,11 +7,15 @@
         class - icon (aqua) */
 
 .blue-icon {
-    color: #2B4BA2;
+    color: #007CAD;
+}
+
+.blue-icon-large {
+    max-width: 35px;
 }
 
 .blue-text {
-    color: #2B4BA2;
+    color: #007CAD;
 }
 
 .light-blue {
@@ -20,6 +24,13 @@
 
 .light-blue-shadded {
     background-color: #B9B8BE
+}
+
+.grey-line {
+    width: 100%;
+    height: 2px;
+    background-color: rgb(155, 155, 158);
+    margin-bottom: 10px;
 }
 
 /*-------------------------------------------------General page rules */
