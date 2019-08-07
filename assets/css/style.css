@@ -1,15 +1,36 @@
 /*-------------------------------------------------Colours */
 
-    /*  header and footer background
+/*  header and footer background
         page background (white)
         class - default text (dark grey)
         class - default header (aqua)
-        class - icon (aqua)
-        
+        class - icon (aqua) */
+
+.blue-icon {
+    color: #2B4BA2;
+}
+
+.blue-text {
+    color: #2B4BA2;
+}
+
+.light-blue {
+    background-color: #e1e0e7;
+}
+
+.light-blue-shadded {
+    background-color: #B9B8BE
+}
 
 /*-------------------------------------------------General page rules */
 
-    /*  rule for sections - can only have one open at once
+.row {
+    padding: 0;
+    margin: 0;
+}
+
+.page-section {}
+/*  rule for sections - can only have one open at once
         rule for sub section - when a different section is clicked on sub section collapses
 
         INVESTIGATE - can i show part of the text on hover and the full text on click?
@@ -30,16 +51,9 @@
 
 /*-------------------------------------------------Nav */
 
-.topBar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    background-color: #e1e0e7;
-    height: 50px;
-    z-index: -1;
+.dropdown {
+    display: inline-block;
 }
-
 .dropdownMenu {
     list-style: none;
     margin: 0;
@@ -51,14 +65,16 @@
     width: 150px;
     text-align: left;
     font-size: 15px;
-    transform: translateY(-110%);
+    /*transform: translateY(-110%);*/
+    transform: scaleY(0);
+    transform-origin: top;
     transition: transform .5s ease-in-out;
-    box-shadow: 0px 6px 15px 0px rgba(0,0,0,0.2);
-    z-index: -2;
-    background-color: #e1e0e7;
+    box-shadow: 0px 6px 15px 0px rgba(0, 0, 0, 0.2);
+   
 }
+
 .dropdownItem {
-    padding-left:15px; 
+    padding-left: 15px;
 }
 
 .dropdownLink {
@@ -70,7 +86,7 @@
 }
 
 .dropdownItem:hover {
-    background-color: #DBDCE0;
+    background-color: #B9B8BE;
     text-decoration: none;
     color: #4a4a4f;
 }
@@ -81,7 +97,8 @@
 }
 
 .dropdown:hover .dropdownMenu {
-    transform: translateY(0);
+    /*transform: translateY(0);*/
+    transform: scaleY(1);
 }
 
 .hamburger {
@@ -89,7 +106,7 @@
     padding-left: 15px;
     display: flex;
     align-items: center;
-    color: #5A5A5F;  
+    color: #5A5A5F;
     cursor: pointer;
     bottom: 0;
 }
@@ -115,27 +132,80 @@
     top: 0;
 }
 
-h1.title,
-h2.role {
+h1.title, h2.role {
     padding-left: 10%;
 }
 
 @media (min-width: 768px) {
-    .header-background {
+   .header-background {
         height: 700px;
     }
 }
-@media (min-width: 992px) { ... }
-@media (min-width: 1200px) { ... }
+
+@media (min-width: 992px) {
+    
+}
+
+@media (min-width: 1200px) {
+    ...
+}
+
+/*-------------------------------------------------Footer */
+
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 10px;
+}
+
+.footer {
+    color: #4a4a4f;
+    min-height: 50px;
+}
+
+.social-links {
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.social-links li a i {
+    padding: 12px 2px;
+    font-size: 25px;
+    line-height: 7px;
+    text-align: center;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+ul {
+    margin-bottom: 0;
+    min-height: 50px;
+}
+
+.col-12 {
+    padding-right: 0;
+    padding-left: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/*-------------------------------------------------General Section Formatting*/
+
 
 
 /* SPECIFIC PAGE SECTIONS */
 
 /*-------------------------------------------------About Me */
+
+.about-me-section {}
+
 /*-------------------------------------------------Work History */
 
 /*-------------------------------------------------Section */
+
 /*-------------------------------------------------Section */
-/*-------------------------------------------------Section */
-/*-------------------------------------------------Section */
+
 /*-------------------------------------------------Section */

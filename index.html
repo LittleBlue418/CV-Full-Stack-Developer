@@ -21,16 +21,13 @@
 <body>
     <header>
         <!-- NAV -->
-        <!-- <div class="container-fluid">-->
-
-        <nav class="navDefault navbar-expand-sm">
+        <nav class="light-blue">
             <div class="dropdown">
                 <div class="hamburger">
                     <i class="material-icons">menu</i>
                 </div>
 
-                <div class="topBar"></div>
-                <ul class="ul dropdownMenu">
+                <ul class="ul dropdownMenu light-blue">
                     <li class="dropdownItem">
                         <a class="dropdownLink" href="#">About Me</a>
                     </li>
@@ -52,7 +49,8 @@
                 </ul>
             </div>
         </nav>
-
+        <!-- /Nav-->
+        <!-- Image & Text -->
 
         <div class="row header-background">
             <div class="col">
@@ -61,34 +59,12 @@
 
             </div>
         </div>
+        <!--/ Image & Text -->
+        
     </header>
-
-    <!--Navigation Menu container
-            Wrapper - unordered list
-                Wrapper - list items
-                    formatting for mobile, ipad and desktop
-                    Wrapper - navigation item 
-                        About Me
-                    Wrapper - navigation item 
-                        Work History
-                    Wrapper - navigation item 
-                        Skills
-                    Wrapper - navigation item 
-                        Portfolio
-                    Wrapper - navigation item 
-                        Contact Me
-                    Wrapper - download item target _blank
-                        Download my CV
-
-        -->
-
-
-    <!--Main header image & text -->
-
-
-
-    <section>
-        <!--Wrapper - About Me section  
+    <!-- 
+        <div class="page-section about-me-section">
+            <!--Wrapper - About Me section  
                 Wrapper - About Me Icon 
                     icon, animation onhover, animation onclick, aria
                 Wrapper - Section container
@@ -113,7 +89,7 @@
                     grey bar
 
                 -->
-        <!--Wrapper - Work History section  
+            <!--Wrapper - Work History section  
                 Wrapper - Work History Icon 
                     icon, animation onhover, animation onclick, aria
                 Wrapper - Section container
@@ -141,7 +117,7 @@
 
         -->
 
-        <!--Wrapper - Skills section  
+            <!--Wrapper - Skills section  
                 Wrapper - Skills Icon 
                     icon, animation onhover, animation onclick, aria
                 Wrapper - Section container
@@ -173,7 +149,7 @@
 
         -->
 
-        <!--Wrapper - Portfolio section  
+            <!--Wrapper - Portfolio section  
                 Wrapper - Portfolio Icon 
                     icon, animation onhover, animation onclick, aria
                 Wrapper - Section container
@@ -218,16 +194,37 @@
 
         -->
 
-        <!-- Wrapper - Download link 
+            <!-- Wrapper - Download link 
                 Wrapper - Download Icon 
                     icon, animation onhover, animation onclick, aria
                     CV file target _blank
         
         -->
 
-    </section>
 
-    <footer>
+    <footer class="container-fluid">
+        <div class="footer light-blue">
+            <div id="footer-details" class="row">
+                <div class="col-12">
+                    <ul class="list-inline social-links">
+                        <li class="list-inline-item">
+                                <a target="_blank" href="https://www.linkedin.com/in/holly-thomas-6840b06a/">
+                                    <i class="fab fa-linkedin blue-icon" aria-hidden="true"></i>
+                                    <span class="sr-only">LinkedIn</span>
+                                </a>
+                        </li>
+                        <li class="list-inline-item">
+                                <a target="_blank" href="https://github.com/LittleBlue418">
+                                    <i class="fab fa-github blue-icon" aria-hidden="true"></i>
+                                    <span class="sr-only">Github</span>
+                                </a>
+                        </li>
+
+
+                    </ul>
+                </div>
+            </div>
+        </div>
         <!-- Wrapper - Footer bar
                 Wrapper - bar
                     grey bar
