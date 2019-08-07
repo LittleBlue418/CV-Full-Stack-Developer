@@ -41,6 +41,7 @@
 }
 
 .page-section {}
+
 /*  rule for sections - can only have one open at once
         rule for sub section - when a different section is clicked on sub section collapses
 
@@ -214,6 +215,8 @@ ul {
 .about-me-section {}
 
 /*-------------------------------------------------Work History */
+
+.work-history-section {}
 
 /*-------------------------------------------------Section */
 
