@@ -15,8 +15,12 @@ https://littleblue418.github.io/CV-Full-Stack-Developer/.
 - [ ] Adjustments based on feedback
 ##### Build
 - [x] Nav element
-- [ ] Header element
-- [ ] Footer
+- [x] Header element
+- [x] Footer
+- [x] Page skeleton
+- [ ] Add break points for sections
+- [ ] Add on hover and on click animations
+##### Style
 - [ ] About me section
 - [ ] Work history section
 - [ ] Skills section
