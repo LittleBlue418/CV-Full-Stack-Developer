@@ -24,6 +24,10 @@
     background-color: rgb(155, 155, 158);
 }
 
+.short-grey-line {
+    background-color: rgb(178, 178, 180);
+}
+
 /* GENERAL PAGE RULES */
 
 /*-------------------------------------------------Icons */
@@ -50,6 +54,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 30px;
+    padding-top: 10px;
 }
 
 .third-level-icon {
@@ -76,9 +82,24 @@
     margin-top: 15px;
 }
 
+.short-grey-line {
+    width: 50%;
+    height: 2px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.short-grey-line-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+}
+
 .centered-text {
     text-align: center;
+    line-height: 30px;
 }
+
 
 /*-------------------------------------------------Sections */
 
@@ -97,11 +118,12 @@
 
 h3, h4, h5, h6 {
     text-align: center;
+    margin: 0;
 }
 
 h3 {
     padding-bottom: 15px;
-    padding-top: 5px;
+    padding-top: 15px;
 }
 
 h4 {
@@ -110,11 +132,13 @@ h4 {
 
 h5 {
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 15px;
 }
 
 p {
     padding-bottom: 10px;
+    padding-top: 10px;
+    margin-bottom: 0;
 }
 
 .row {
@@ -314,6 +338,18 @@ ul {
 .portfolio-section {}
 
 .portfolio-inner {}
+
+.github-profile-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 5px;
+}
+
+.large-github-icon {
+    font-size: 50px;
+} 
 
 /*-------------------------------------------------Contact */
 
