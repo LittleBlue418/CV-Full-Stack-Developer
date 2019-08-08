@@ -36,7 +36,7 @@ E - Generate interest from collaborators | 2 | 1
 
 
 ### Wireframes & Diagrams 
-You can view my wireframes and designs in this folder [here](https://github.com/LittleBlue418/Milestone1/tree/master/assets/wireframesv1)
+You can view my wireframes and designs in this folder [here](https://github.com/LittleBlue418/Milestone1/tree/master/assets/wireframes)
 
 ***
 ## Features
