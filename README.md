@@ -8,10 +8,12 @@ This portfolio is designed to show to potential employers and collaborators. The
 
 My goal with this project was to create a clean and minimal single page aplication, with drop down sections to learn more about different aspects of me. The tone here was professional, aiming at potential employers, but to also show a little of my personality and give users a bit of an idea about the kind of person i am. 
 
+***
 ## Website
 
 You can view the website [here](https://littleblue418.github.io/Milestone1/.)
 
+***
 ## UX
 
 My UX process centered on a mobile first, clean and responsive design. I wanted to keep the page as clean as possible, but esilly scale and respond to the user. 
@@ -30,7 +32,34 @@ C - Showcase a range of well made Github projects | 4 | 1
 D - Increase recruiter interest and interaction | 4 | 3
 E - Generate interest from collaborators | 2 | 1
 
+![Milestone 1 importance graph](https://github.com/LittleBlue418/Milestone1/blob/master/assets/wireframes/M1-importance-graph.png)
 
 
 ### Wireframes & Diagrams 
-You can view my wireframes and designs in this folder [here](https://github.com/LittleBlue418/Milestone1/tree/master/assets/wireframesv1)
+You can view my wireframes and designs in this folder [here](https://github.com/LittleBlue418/Milestone1/tree/master/assets/wireframes)
+
+***
+## Features
+
+### Existing Features
+
+### Features Left to Implement 
+
+***
+## Technologies Used
+* List 
+
+***
+## Testing 
+
+***
+## Deployment
+
+***
+## Credits
+### Content
+
+### Media
+
+### Acknowledgements 
+
