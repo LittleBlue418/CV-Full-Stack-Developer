@@ -390,12 +390,29 @@
                 <p>Interested in working with me? I would love to hear from you! Fill in the form below
                     and tell me a bit about the project or job in mind. I'll try and get back to you as soon as i can!
                 </p>
-                <div class="form">
-                    Name
-                    Email
-                    Description
-                    Submit button
-                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="name" placeholder="Name" required>
+                        <span class="sr-only">Name input field</span>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control" id="email" placeholder="Email" required>
+                        <span class="sr-only">Email input field</span>
+                    </div>
+                    <div class="form-group">
+                        <small id="descriptionHelpBlock" class="form-text text-muted mb-2">
+                                    Tell me about the project or role you have in mind! 
+                                  </small>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"
+                            placeholder="Description" required></textarea>
+                            <span class="sr-only">Description input field</span>
+                            
+                    </div>
+                    <div class="button-container">
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                        
+                    </div>
+                </form>
                 <div class="grey-line"></div>
             </div>
         </div>

@@ -42,7 +42,6 @@
 }
 
 .second-level-icon {
-    
     margin-left: auto;
     margin-right: auto;
     font-size: 45px;
@@ -99,7 +98,6 @@
     text-align: center;
     line-height: 30px;
 }
-
 
 /*-------------------------------------------------Sections */
 
@@ -167,11 +165,10 @@ p {
 
 /*-------------------------------------------------Nav */
 
-
-
 .dropdown {
     display: inline-block;
 }
+
 .dropdownMenu {
     list-style: none;
     margin: 0;
@@ -187,7 +184,6 @@ p {
     transform-origin: top;
     transition: transform .5s ease-in-out;
     box-shadow: 0px 6px 15px 0px rgba(0, 0, 0, 0.2);
-   
 }
 
 .dropdownItem {
@@ -253,22 +249,16 @@ h1.title, h2.role {
 }
 
 @media (min-width: 576px) {
-      .header-background {
+    .header-background {
         height: 550px;
     }
 }
 
-@media (min-width: 768px) {
- 
-}
+@media (min-width: 768px) {}
 
-@media (min-width: 992px) {
-    
-}
+@media (min-width: 992px) {}
 
-@media (min-width: 1200px) {
-
-}
+@media (min-width: 1200px) {}
 
 /*-------------------------------------------------Footer */
 
@@ -313,8 +303,6 @@ ul {
 
 /*-------------------------------------------------General Section Formatting*/
 
-
-
 /* SPECIFIC PAGE SECTIONS */
 
 /*-------------------------------------------------About Me */
@@ -327,7 +315,7 @@ ul {
 
 .work-history-section {}
 
-.work-history-inner{}
+.work-history-inner {}
 
 .work-experience-container {
     padding-left: 20px;
@@ -352,7 +340,7 @@ ul {
     content: attr(data-dates);
     position: absolute;
     left: 2.5em;
-    top:3em;
+    top: 3em;
     display: block;
     font-family: "Exo", sans-serif;
     font-weight: 500;
@@ -413,16 +401,16 @@ This code has been modified / written by me */
     max-width: 100%;
 }
 
-
 /* This code has not been modified */
+
 .progress {
     width: 150px;
     height: 150px;
     background: none;
     position: relative;
-  }
-  
-  .progress::after {
+}
+
+.progress::after {
     content: "";
     width: 100%;
     height: 100%;
@@ -431,22 +419,22 @@ This code has been modified / written by me */
     position: absolute;
     top: 0;
     left: 0;
-  }
-  
-  .progress>span {
+}
+
+.progress>span {
     width: 50%;
     height: 100%;
     overflow: hidden;
     position: absolute;
     top: 0;
     z-index: 1;
-  }
-  
-  .progress .progress-left {
+}
+
+.progress .progress-left {
     left: 0;
-  }
-  
-  .progress .progress-bar {
+}
+
+.progress .progress-bar {
     width: 100%;
     height: 100%;
     background: none;
@@ -454,57 +442,55 @@ This code has been modified / written by me */
     border-style: solid;
     position: absolute;
     top: 0;
-  }
-  
-  .progress .progress-left .progress-bar {
+}
+
+.progress .progress-left .progress-bar {
     left: 100%;
     border-top-right-radius: 80px;
     border-bottom-right-radius: 80px;
     border-left: 0;
     -webkit-transform-origin: center left;
     transform-origin: center left;
-  }
-  
-  .progress .progress-right {
+}
+
+.progress .progress-right {
     right: 0;
-  }
-  
-  .progress .progress-right .progress-bar {
+}
+
+.progress .progress-right .progress-bar {
     left: -100%;
     border-top-left-radius: 80px;
     border-bottom-left-radius: 80px;
     border-right: 0;
     -webkit-transform-origin: center right;
     transform-origin: center right;
-  }
-  
-  .progress .progress-value {
+}
+
+.progress .progress-value {
     position: absolute;
     top: 0;
     left: 0;
-  }
-  
-  /*
+}
+
+/*
   *
   * ==========================================
   * FOR DEMO PURPOSE
   * ==========================================
   *
   */
-  
- 
-  
-  .rounded-lg {
+
+.rounded-lg {
     border-radius: 1rem;
-  }
-  
-  .text-gray {
+}
+
+.text-gray {
     color: #aaa;
-  }
-  
-  div.h4 {
+}
+
+div.h4 {
     line-height: 1rem;
-  }
+}
 
 /* / end code from bootstrapious */
 
@@ -524,10 +510,25 @@ This code has been modified / written by me */
 
 .large-github-icon {
     width: 50px;
-} 
+}
 
 /*-------------------------------------------------Contact */
 
 .contact-section {}
 
 .contact-inner {}
+
+.contact-form {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+}
+
+button {
+    background-color: #007CAD;
+}
