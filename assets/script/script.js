@@ -24,6 +24,10 @@ $(function() {
       return percentage / 100 * 360
   
     }
+
+    $('#aboutMeSection').on('shown.bs.collapse', function() {
+        console.log("Scrolling!");
+    })
   
   });
 

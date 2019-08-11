@@ -16,6 +16,14 @@
     background-color: #e1e0e7;
 }
 
+.dark-blue {
+    background-color: #007CAD
+}
+
+.white {
+    color: rgb(255, 255, 255);
+}
+
 .light-blue-shadded {
     background-color: #B9B8BE
 }
@@ -126,6 +134,7 @@
 
 .top-icon-hover:hover {
     transform: scale(1.2);
+    color: #00719E;
 }
 
 .btn-primary {
@@ -188,7 +197,7 @@ p {
     position: fixed;
 }
 .dark-blue-text {
-    color: #4a4a4f;
+    color: #ffffff;
 }
 
 .navbar-light .navbar-toggler {
@@ -201,13 +210,14 @@ p {
 }
 .nav-item a {
     text-decoration: none;
-    color: rgba(0,0,0,.5);
-    padding-top: 20px;
+   
+    padding-top: 20px; 
+    color: #4a4a4f;
 }
 
 .nav-item a:hover {
     text-decoration: none;
-    color: #4a4a4f;
+    color: #ffffff;
 
 }
 .nav-item a .topMenuItem {
@@ -348,8 +358,8 @@ ul {
 .col-12 {
     padding-right: 0;
     padding-left: 0;
-    display: flex;
-    justify-content: flex-end;
+    /*display: flex;
+    justify-content: flex-end;*/
 }
 
 /*-------------------------------------------------General Section Formatting*/
