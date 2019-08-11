@@ -379,6 +379,7 @@ ul {
     position: relative;
     color: #007CAD;
     border-left: 2px solid;
+    padding-bottom: 20px;
 }
 
 .work-experience-item p {
