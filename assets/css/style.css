@@ -43,6 +43,12 @@
     font-size: 60px;
     padding-top: 25px;
     padding-bottom: 25px;
+    
+    
+}
+
+.top-icon-hover {
+    transition: transform 0.2s ease-in-out;
 }
 
 .second-level-icon {
@@ -109,8 +115,6 @@
  padding-bottom: 30px;  
 }
 
-/*-------------------------------------------------Sections */
-
 .page-section {
     padding-top: 25px;
     padding-bottom: 25px;
@@ -118,7 +122,13 @@
     padding-left: 10%;
 }
 
-.inner-section {}
+/*-------------------------------------------------On hover / On click */
+
+.top-icon-hover:hover {
+    transform: scale(1.2);
+}
+
+
 
 .second-inner-section {}
 
