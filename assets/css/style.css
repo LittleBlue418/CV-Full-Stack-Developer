@@ -1,31 +1,15 @@
-/*-------------------------------------------------Colours */
+/*-------------------------------------------------Colour classes */
 
-.blue-icon {
+.main-blue {
     color: #007CAD;
 }
 
-.blue-icon-large {
-    max-width: 50px;
-}
-
-.blue-text {
-    color: #007CAD;
+.main-blue-background {
+    background-color: #007CAD
 }
 
 .light-blue {
     background-color: #e1e0e7;
-}
-
-.dark-blue {
-    background-color: #007CAD
-}
-
-.white {
-    color: rgb(255, 255, 255);
-}
-
-.light-blue-shadded {
-    background-color: #B9B8BE
 }
 
 .grey-line {
@@ -36,61 +20,60 @@
     background-color: rgb(178, 178, 180);
 }
 
-.blue-arrow {
-    color: #007CAD;
+.top-level-icon:hover {
+    color: #00719E;
 }
-
-/* GENERAL PAGE RULES */
+.btn-primary:hover {
+    background-color: #00719E;
+}
 
 /*-------------------------------------------------Icons */
 
-.top-level-icon {
+.top-level-icon-container {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 60px;
+    font-size: 70px;
     padding-top: 25px;
     padding-bottom: 25px;
-    
-    
 }
 
-.top-icon-hover {
+.top-level-icon {
     transition: transform 0.2s ease-in-out;
+}
+
+.top-level-icon:hover {
+    transform: scale(1.1);
 }
 
 .second-level-icon {
     margin-left: auto;
     margin-right: auto;
-    font-size: 45px;
     width: 45px;
     padding-bottom: 15px;
-}
-
-.inner-section-box {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-bottom: 30px;
-    padding-top: 10px;
 }
 
 .third-level-icon {
     font-size: 25px;
     display: flex;
-    align-items: center;
     justify-content: center;
     padding-top: 5px;
     padding-bottom: 5px;
 }
 
-.fa-chevron-down {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-top: 15px;
-    padding-bottom: 25px;
+.large-github-icon {
+    width: 80px;
 }
+
+.fa-chevron-down {
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+/*-------------------------------------------------Lines */
 
 .grey-line {
     width: 100%;
@@ -112,36 +95,16 @@
     padding-top: 25px;
 }
 
-.centered-text {
-    text-align: center;
-    line-height: 30px;
+/*-------------------------------------------------Buttons */
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
-.blue-arrow {
- font-size: 30px; 
- padding-top: 20px;
- padding-bottom: 30px;  
-}
-
-.page-section {
-    padding-top: 25px;
-    padding-bottom: 25px;
-    padding-right: 10%;
-    padding-left: 10%;
-}
-
-/*-------------------------------------------------On hover / On click */
-
-.top-icon-hover:hover {
-    transform: scale(1.2);
-    color: #00719E;
-}
-
-.btn-primary {
-    background-color: transparent;
-    border-color: transparent;
-}
-/*-------------------------------------------------Headers & Paragraphs */
+/*-------------------------------------------------Headers and basic elements */
 
 h3, h4, h5 {
     text-align: center;
@@ -169,157 +132,55 @@ p {
     margin-bottom: 0;
 }
 
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/*-------------------------------------------------Page sections */
+
+.page-section {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+.centered-text {
+    text-align: center;
+    line-height: 30px;
+}
+
+
+.inner-section-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 30px;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.col-12 {
+    padding-right: 10;
+    padding-left: 10;
+}
+
 .row {
     padding: 0;
     margin: 0;
 }
 
-/*-------------------------------------------------Nav */
-.fa-1x {
-    font-size: 1.5rem;
-    }
-    .navbar-toggler.toggler-example {
-    cursor: pointer;
-    }
-    .dark-blue-text {
-    color: #0A38F5;
-    }
-    .dark-pink-text {
-    color: #AC003A;
-    }
-    .dark-amber-text {
-    color: #ff6f00;
-    }
-    .dark-teal-text {
-    color: #004d40;
-    }
-.navbar {
-    position: fixed;
+ul {
+    margin-bottom: 0;
+    min-height: 50px;
 }
-.dark-blue-text {
-    color: #ffffff;
-}
-
-.navbar-light .navbar-toggler {
-    border-color: transparent;
-}
-
-.nav-item {
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-.nav-item a {
-    text-decoration: none;
-   
-    padding-top: 20px; 
-    color: #4a4a4f;
-}
-
-.nav-item a:hover {
-    text-decoration: none;
-    color: #ffffff;
-
-}
-.nav-item a .topMenuItem {
-    padding-top: 50px;
-}
-
-/*-------------------------------------------------OLD Nav 
-
-.dropdown {
-    display: inline-block;
-}
-
-.dropdownMenu {
-    list-style: none;
-    margin: 0;
-    position: absolute;
-    padding: 0;
-    left: 0;
-    right: 0;
-    top: 50;
-    width: 150px;
-    text-align: left;
-    font-size: 15px;
-    transform: scaleY(0);
-    transform-origin: top;
-    transition: transform .5s ease-in-out;
-    box-shadow: 0px 6px 15px 0px rgba(0, 0, 0, 0.2);
-}
-
-.dropdownItem {
-    padding-left: 15px;
-}
-
-.dropdownLink {
-    text-decoration: none;
-    display: block;
-    color: #4a4a4f;
-    padding: 10px 5px;
-    transition: background-color .2s ease-in-out;
-}
-
-.dropdownItem:hover {
-    background-color: #B9B8BE;
-    text-decoration: none;
-    color: #4a4a4f;
-}
-
-.dropdownLink:hover {
-    text-decoration: none;
-    color: #4a4a4f;
-}
-
-.dropdown:hover .dropdownMenu {
-    transform: scaleY(1);
-}
-
-.hamburger {
-    height: 50px;
-    padding-left: 15px;
-    display: flex;
-    align-items: center;
-    color: #5A5A5F;
-    cursor: pointer;
-    bottom: 0;
-}
-
-.hamburger .material-icons {
-    font-size: 36px;
-}
-
-/*-------------------------------------------------Header */
-
-.header-background {
-    height: 100vw;
-    background: url("../images/banner-image3.png") no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    z-index: -3;
-    top: 0;
-}
-
-h1.title, h2.role {
-    padding-left: 10%;
-}
-
-@media (min-width: 576px) {
-    .header-background {
-        height: 550px;
-    }
-}
-
-@media (min-width: 768px) {}
-
-@media (min-width: 992px) {}
-
-@media (min-width: 1200px) {}
 
 /*-------------------------------------------------Footer */
 
@@ -342,41 +203,14 @@ h1.title, h2.role {
 .social-links li a i {
     padding: 12px 2px;
     font-size: 25px;
-    line-height: 7px;
-    text-align: center;
     transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
 }
 
-ul {
-    margin-bottom: 0;
-    min-height: 50px;
+.social-links li a i:hover {
+    color: #cecde2
 }
 
-.col-12 {
-    padding-right: 0;
-    padding-left: 0;
-    /*display: flex;
-    justify-content: flex-end;*/
-}
-
-/*-------------------------------------------------General Section Formatting*/
-
-/* SPECIFIC PAGE SECTIONS */
-
-/*-------------------------------------------------About Me */
-
-.about-me-section {}
-
-.about-me-inner {}
-
-/*-------------------------------------------------Work History */
-
-.work-history-section {}
-
-.work-history-inner {}
+/*------------------------------------------------- */
 
 .work-experience-container {
     padding-left: 20px;
@@ -393,8 +227,6 @@ ul {
 }
 
 .work-experience-item p {
-    padding: 0;
-    margin: 0;
     color: #4a4a4f;
 }
 
@@ -425,11 +257,9 @@ ul {
 
 /*-------------------------------------------------Skills */
 
-.skills-section {}
 
-.skills-inner {}
 
-/* This code is from https://bootstrapious.com/p/circular-progress-bar 
+/* This code is from https://bootstrapious.com/p/circular-progress-bar
 
 This code has been modified / written by me */
 
@@ -575,9 +405,7 @@ div.h4 {
     padding-bottom: 25px;
 }
 
-.large-github-icon {
-    width: 50px;
-}
+
 
 /*-------------------------------------------------Contact */
 
@@ -590,12 +418,165 @@ div.h4 {
     padding-bottom: 30px;
 }
 
-.button-container {
+
+
+
+
+
+
+
+
+/*-------------------------------------------------Header */
+
+.header-background {
+    height: 100vw;
+    background: url("../images/banner-image3.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     display: flex;
+    align-items: center;
     justify-content: center;
-    padding-top: 25px;
+    position: relative;
+    z-index: -3;
+    top: 0;
 }
 
-button {
-    background-color: #007CAD;
+h1.title, h2.role {
+    padding-left: 10%;
+}
+
+@media (min-width: 576px) {
+    .header-background {
+        height: 550px;
+    }
+}
+
+@media (min-width: 768px) {}
+
+@media (min-width: 992px) {}
+
+@media (min-width: 1200px) {}
+/*-------------------------------------------------Nav */
+.dropdown {
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    border: none;
+}
+
+.fa-1x {
+    font-size: 1.5rem;
+    }
+    .navbar-toggler.toggler-example {
+    cursor: pointer;
+    }
+    .dark-blue-text {
+    color: #0A38F5;
+    }
+    .dark-pink-text {
+    color: #AC003A;
+    }
+    .dark-amber-text {
+    color: #ff6f00;
+    }
+    .dark-teal-text {
+    color: #004d40;
+    }
+.navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+.dark-blue-text {
+    color: #ffffff;
+}
+
+.navbar-light .navbar-toggler {
+    border-color: transparent;
+}
+
+.nav-item {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.nav-item a {
+    text-decoration: none;
+
+    padding-top: 20px;
+    color: #4a4a4f;
+}
+
+.nav-item a:hover {
+    text-decoration: none;
+    color: #ffffff;
+
+}
+.nav-item a .topMenuItem {
+    padding-top: 50px;
+}
+
+/*-------------------------------------------------OLD Nav
+
+.dropdown {
+    display: inline-block;
+}
+
+.dropdownMenu {
+    list-style: none;
+    margin: 0;
+    position: absolute;
+    padding: 0;
+    left: 0;
+    right: 0;
+    top: 50;
+    width: 150px;
+    text-align: left;
+    font-size: 15px;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: transform .5s ease-in-out;
+    box-shadow: 0px 6px 15px 0px rgba(0, 0, 0, 0.2);
+}
+
+.dropdownItem {
+    padding-left: 15px;
+}
+
+.dropdownLink {
+    text-decoration: none;
+    display: block;
+    color: #4a4a4f;
+    padding: 10px 5px;
+    transition: background-color .2s ease-in-out;
+}
+
+.dropdownItem:hover {
+    background-color: #B9B8BE;
+    text-decoration: none;
+    color: #4a4a4f;
+}
+
+.dropdownLink:hover {
+    text-decoration: none;
+    color: #4a4a4f;
+}
+
+.dropdown:hover .dropdownMenu {
+    transform: scaleY(1);
+}
+
+.hamburger {
+    height: 50px;
+    padding-left: 15px;
+    display: flex;
+    align-items: center;
+    color: #5A5A5F;
+    cursor: pointer;
+    bottom: 0;
+}
+
+.hamburger .material-icons {
+    font-size: 36px;
 }
