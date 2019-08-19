@@ -27,6 +27,9 @@
     background-color: #00719E;
 }
 
+.skill-circle-colour {
+    border-color: #007CAD;
+}
 /*-------------------------------------------------Icons */
 
 .top-level-icon-container {
@@ -255,29 +258,19 @@ ul {
     background: #007CAD;
 }
 
-/*-------------------------------------------------Skills */
+/*-------------------------------------------------Skill circles */
 
+/* code from https://bootstrapious.com/p/circular-progress-bar
 
-
-/* This code is from https://bootstrapious.com/p/circular-progress-bar
-
-This code has been modified / written by me */
+This section of code has been modified / written by me */
 
 .skill-container {
     display: flex;
     justify-content: center;
 }
 
-.skill-container .col-12 {
-    justify-content: center;
-}
-
 .skill-container h2 {
     padding-top: 15px;
-}
-
-.border-colour {
-    border-color: #007CAD;
 }
 
 .p-5 {
@@ -287,6 +280,7 @@ This code has been modified / written by me */
 .skill-box {
     padding-left: 10px;
     padding-right: 10px;
+    min-width: 230px;
 }
 
 .col-lg-3 {
@@ -364,27 +358,13 @@ This code has been modified / written by me */
     left: 0;
 }
 
-/*
-  *
-  * ==========================================
-  * FOR DEMO PURPOSE
-  * ==========================================
-  *
-  */
-
 .rounded-lg {
     border-radius: 1rem;
 }
 
-.text-gray {
-    color: #aaa;
-}
-
-div.h4 {
-    line-height: 1rem;
-}
-
 /* / end code from bootstrapious */
+
+/*-------------------------------------------------Skills Section */
 
 .skill-text-box {
     padding-top: 15px;
@@ -392,10 +372,6 @@ div.h4 {
 }
 
 /*-------------------------------------------------Portfolio */
-
-.portfolio-section {}
-
-.portfolio-inner {}
 
 .github-profile-box {
     display: flex;
@@ -405,18 +381,34 @@ div.h4 {
     padding-bottom: 25px;
 }
 
-
-
 /*-------------------------------------------------Contact */
-
-.contact-section {}
-
-.contact-inner {}
 
 .contact-form {
     padding-top: 30px;
     padding-bottom: 30px;
 }
+
+/*______________________________________________________*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
