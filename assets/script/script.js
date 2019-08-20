@@ -49,5 +49,10 @@ $(function() {
         $('html, body').animate(properties,1000);
     })
 
+    //code from stack overflow https://stackoverflow.com/questions/14248194/close-responsive-navbar-automatically
+    $('.navbar-collapse a').click(function(){
+      $(".navbar-collapse").collapse('hide');
+  });
+
   });
 
