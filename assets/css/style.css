@@ -397,6 +397,11 @@ This section of code has been modified / written by me */
     padding-bottom: 30px;
 }
 
+/*-------------------------------------------------Nav
+
+
+
+
 /*______________________________________________________*/
 
 
@@ -463,125 +468,4 @@ h1.title, h2.role {
 
 
 
-/*-------------------------------------------------Nav
-.dropdown {
-    position: fixed;
-    width: 100%;
-    z-index: 10;
-    border: none;
-}
 
-.fa-1x {
-    font-size: 1.5rem;
-    }
-    .navbar-toggler.toggler-example {
-    cursor: pointer;
-    }
-    .dark-blue-text {
-    color: #0A38F5;
-    }
-    .dark-pink-text {
-    color: #AC003A;
-    }
-    .dark-amber-text {
-    color: #ff6f00;
-    }
-    .dark-teal-text {
-    color: #004d40;
-    }
-.navbar {
-    position: fixed;
-    width: 100%;
-    z-index: 10;
-}
-.dark-blue-text {
-    color: #ffffff;
-}
-
-.navbar-light .navbar-toggler {
-    border-color: transparent;
-}
-
-.nav-item {
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-.nav-item a {
-    text-decoration: none;
-
-    padding-top: 20px;
-    color: #4a4a4f;
-}
-
-.nav-item a:hover {
-    text-decoration: none;
-    color: #ffffff;
-
-}
-.nav-item a .topMenuItem {
-    padding-top: 50px;
-}
-
-/*-------------------------------------------------OLD Nav
-
-.dropdown {
-    display: inline-block;
-}
-
-.dropdownMenu {
-    list-style: none;
-    margin: 0;
-    position: absolute;
-    padding: 0;
-    left: 0;
-    right: 0;
-    top: 50;
-    width: 150px;
-    text-align: left;
-    font-size: 15px;
-    transform: scaleY(0);
-    transform-origin: top;
-    transition: transform .5s ease-in-out;
-    box-shadow: 0px 6px 15px 0px rgba(0, 0, 0, 0.2);
-}
-
-.dropdownItem {
-    padding-left: 15px;
-}
-
-.dropdownLink {
-    text-decoration: none;
-    display: block;
-    color: #4a4a4f;
-    padding: 10px 5px;
-    transition: background-color .2s ease-in-out;
-}
-
-.dropdownItem:hover {
-    background-color: #B9B8BE;
-    text-decoration: none;
-    color: #4a4a4f;
-}
-
-.dropdownLink:hover {
-    text-decoration: none;
-    color: #4a4a4f;
-}
-
-.dropdown:hover .dropdownMenu {
-    transform: scaleY(1);
-}
-
-.hamburger {
-    height: 50px;
-    padding-left: 15px;
-    display: flex;
-    align-items: center;
-    color: #5A5A5F;
-    cursor: pointer;
-    bottom: 0;
-}
-
-.hamburger .material-icons {
-    font-size: 36px;
-}
