@@ -35,7 +35,7 @@ C - Showcase a range of well made Github projects | 4 | 1
 D - Increase recruiter interest and interaction | 4 | 3
 E - Generate interest from collaborators | 2 | 1
 
-![Milestone 1 importance graph](https://github.com/LittleBlue418/Milestone1/blob/master/assets/wireframes/M1-importance-graph.png)
+![Milestone 1 importance graph](https://github.com/LittleBlue418/Milestone1/blob/master/assets/wireframes/M1-importance-graph.png "graph of problems against viability and Importance")
 
 ### Scope 
 ##### Initial Scope
@@ -68,30 +68,58 @@ You can view my wireframes and designs in this folder [here](https://github.com/
 
 ### Surface
 I decided to build the 'brand' for the website about my existing github profile, matching the profile image of the teapot and carrying through the same colour. I was careful to create a downloadable CV that also matched the same image and the same blue of the site. Similarly i echoed the round skill circles from the website in the Downloadable CV. 
-![Colour Profile For Website](https://github.com/LittleBlue418/Milestone1/blob/master/assets/wireframes/colourProfile.jpg)
 
+<img src="https://github.com/LittleBlue418/Milestone1/blob/master/assets/wireframes/colourProfile.jpg" width="180" height="200" alt="colour profile for website" title="colour profile for website"/>
 
 ***
 
 ## Features
 I wanted to display a range of features in this project, but not to overwhelm the user on first view. 
-* Navbar - Is a static menu to allow users to instantly access all of the sites content from anywhere on the page. 
-* Drop Down Sections - As part of the UX decision to present a 'clean' web page each of the key sections on the page is hidden from the user on the initial view. Each section has an icon with an on hover function, as well as being listed in the navbar. On click of either, the section will open and the page scroll to imediately present the user with critical content. 
-* Inner Drop Down Section - Following on from the decision to present the user with information in bite sized chunks each section has a second inner drop down (with the exception of the contact form). These sections are nested behind the universally recognized 'drop down' arrow, and contain information that is not important, but gives more of a picture of my personality. The idea is to allow the user to choose to read more if they are interested, but present them first with the key information. 
-* The Skill Circles - These are visual representations of my skill levels, designed to be imediately appealing for the user to look at, but more importantly to allow them to quickly guage my skill level. 
-* The Work History Timeline - I wanted a very visual timeline of my work history, again to be visually appealing and as clear as possible to the user, so rather than simply list out my previous jobs I created a timeline.  
+* **Navbar** - Is a static menu to allow users to instantly access all of the sites content from anywhere on the page. 
+* **Drop Down Sections** - As part of the UX decision to present a 'clean' web page each of the key sections on the page is hidden from the user on the initial view. Each section has an icon with an on hover function, as well as being listed in the navbar. On 'onclick' of either, the section will open
+* **Scroll to top** When a section has been expanded a JavaScript function will scroll the browser window to the top of that section, to imediately bring the user to their desired contnet.
+* **Inner Drop Down Section** - Following on from the decision to present the user with information in bite sized chunks each section has a second inner drop down (with the exception of the contact form). These sections are nested behind the universally recognized *drop down arrow*, and contain information that is not important, but that gives more of a picture of my personality. The idea is to allow the user to choose to read more if they are interested, but present them first with the key information. 
+* **The Skill Circles** - These are visual representations of my skill levels, designed to be imediately appealing for the user to look at, but more importantly to allow them to quickly guage my skill level. 
+* **The Work History Timeline** - I wanted a very visual timeline of my work history, again to be visually appealing and as clear as possible to the user, so rather than simply list out my previous jobs I created a timeline.  
+* **Download CV** This feature, accessable from three sreas on the page (the menu, the work history section and the footer) allow the user to quickly download a copy of my CV and skill summary as a 'take away'. 
 
 
 ### Features Left to Implement 
-In the future I would like to add more projects that i ave worked on, to display a greater range of skills. I would also like to impliment some animation on the skills circles, perhapse to have them 'filling up'. 
+* In the future I would like to add more projects that i ave worked on, to display a greater range of skills. 
+* I would also like to impliment some animation on the skills circles, perhapse to have them 'filling up'. 
 
 ***
 ## Technologies Used
-* HTML - Main language used to structure the page.
-* CSS - Providing styling for the site.
-* Bootstrap (4.3.1) - Core structural elements such as the grid layout, button functionality and menu.
-* JavaScript - Adding functionality to the skill circles, as well as 'on click', 'hidden' and 'scroll'. 
-* JQuery (4.3.1) - Supporting library for much of the JavaScript functionality. 
+* [HTML](https://en.wikipedia.org/wiki/HTML) 
+  * Main language used to structure the page.
+* [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+  * Providing styling for the site.
+* [Bootstrap (4.3.1)](https://getbootstrap.com/)
+  * Core structural elements such as the grid layout, button functionality and menu.
+* [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
+  * Adding functionality to the skill circles, as well as 'on click', 'hidden' and 'scroll'. 
+* [JQuery (4.3.1)](https://jquery.com/) 
+  * Supporting library for much of the JavaScript functionality. 
+* [Visual Studio Code](https://code.visualstudio.com/)
+  * IDE and bug testing
+* [Git bash](https://git-scm.com/downloads]
+  * Terminal for git commands
+* [Github](https://github.com/LittleBlue418)
+  * Code repository, website hosting & deployment
+* [Font Awesome](https://fontawesome.com/)
+  * Page icons
+* [Flat Icon](https://www.flaticon.com/)
+  * Page icons
+* [Trello](https://trello.com/en)
+  * Tracking tasks & bugs 
+* [WebAIM](https://webaim.org/resources/contrastchecker/)
+  * Checking and adjusting colours to meet accesability requirements
+* [Coolors](https://coolors.co/)
+  * Extracting colours from photograph of teapot and helping to build a colour scheme
+  
+  
+* [Photoshop / Illustrator](https://www.adobe.com/se/creativecloud.html?gclid=CjwKCAjw1_PqBRBIEiwA71rmtVqgSn2vcdRcH6n_2tweCJ9feZvicaaHlyuOlJio4ZYG_y4iyvk9IBoCrLMQAvD_BwE&sdid=8JD95K3M&mv=search&ef_id=CjwKCAjw1_PqBRBIEiwA71rmtVqgSn2vcdRcH6n_2tweCJ9feZvicaaHlyuOlJio4ZYG_y4iyvk9IBoCrLMQAvD_BwE:G:s&s_kwcid=AL!3085!3!281036364465!e!!g!!adobe%20creative%20suite)
+  * Photo editing, creating graphics, creating wireframes 
 
 ***
 ## Testing 
