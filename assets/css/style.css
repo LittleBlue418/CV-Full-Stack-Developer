@@ -111,6 +111,18 @@
 
 /*-------------------------------------------------Headers and basic elements */
 
+body {
+    font-family: "Roboto", "sans-serif";
+}
+
+h1 {
+    font-weight: 500;
+}
+
+h2 {
+    font-family: "Economica";
+}
+
 h3, h4, h5 {
     text-align: center;
     margin: 0;
@@ -119,6 +131,8 @@ h3, h4, h5 {
 h3 {
     padding-bottom: 15px;
     padding-top: 15px;
+    font-family: "Economica";
+    font-size: 35px;
 }
 
 h4 {
@@ -281,6 +295,10 @@ margin-left: 10px;
 
 .social-links li a i:hover {
     color: #cecde2
+}
+
+.social-links .download-icon {
+    font-size: 24px;
 }
 
 /*-------------------------------------------------Work Experience section */
