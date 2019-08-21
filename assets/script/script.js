@@ -49,7 +49,11 @@ $(function () {
     /* 'this' refers to the specific section of the each loop that we ran at the begining of
     the page load | when ... happens: | the event 'shown' happens on the boostrap class
     'collpse' | call this function */
-    $(this).on('show.bs.collapse', function () {
+    $(this).on('show.bs.collapse', function (event) {
+
+      //filters out the sub sections
+      if (!$(event.target).hasClass('inner-section')) return;
+
 
       /*create a new variable that contains only the position value 'top' for the element
       that has just been expanded*/
