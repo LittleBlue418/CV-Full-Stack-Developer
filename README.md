@@ -90,36 +90,22 @@ I wanted to display a range of features in this project, but not to overwhelm th
 
 ***
 ## Technologies Used
-* [HTML](https://en.wikipedia.org/wiki/HTML) 
-  * Main language used to structure the page.
-* [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
-  * Providing styling for the site.
-* [Bootstrap (4.3.1)](https://getbootstrap.com/)
-  * Core structural elements such as the grid layout, button functionality and menu.
-* [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
-  * Adding functionality to the skill circles, as well as 'on click', 'hidden' and 'scroll'. 
-* [JQuery (4.3.1)](https://jquery.com/) 
-  * Supporting library for much of the JavaScript functionality. 
-* [Visual Studio Code](https://code.visualstudio.com/)
-  * IDE and bug testing
-* [Git bash](https://git-scm.com/downloads]
-  * Terminal for git commands
-* [Github](https://github.com/LittleBlue418)
-  * Code repository, website hosting & deployment
-* [Font Awesome](https://fontawesome.com/)
-  * Page icons
-* [Flat Icon](https://www.flaticon.com/)
-  * Page icons
-* [Trello](https://trello.com/en)
-  * Tracking tasks & bugs 
-* [WebAIM](https://webaim.org/resources/contrastchecker/)
-  * Checking and adjusting colours to meet accesability requirements
-* [Coolors](https://coolors.co/)
-  * Extracting colours from photograph of teapot and helping to build a colour scheme
-  
-  
-* [Photoshop / Illustrator](https://www.adobe.com/se/creativecloud.html?gclid=CjwKCAjw1_PqBRBIEiwA71rmtVqgSn2vcdRcH6n_2tweCJ9feZvicaaHlyuOlJio4ZYG_y4iyvk9IBoCrLMQAvD_BwE&sdid=8JD95K3M&mv=search&ef_id=CjwKCAjw1_PqBRBIEiwA71rmtVqgSn2vcdRcH6n_2tweCJ9feZvicaaHlyuOlJio4ZYG_y4iyvk9IBoCrLMQAvD_BwE:G:s&s_kwcid=AL!3085!3!281036364465!e!!g!!adobe%20creative%20suite)
-  * Photo editing, creating graphics, creating wireframes 
+* [HTML](https://en.wikipedia.org/wiki/HTML) - Main language used to structure the page.
+* [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) - Providing styling for the site.
+* [Bootstrap (4.3.1)](https://getbootstrap.com/) - Core structural elements such as the grid layout, button functionality and menu.
+* [JavaScript](https://en.wikipedia.org/wiki/JavaScript) - Adding functionality to the skill circles, as well as 'on click', 'hidden' and 'scroll'. 
+* [JQuery (4.3.1)](https://jquery.com/) - Supporting library for much of the JavaScript functionality. 
+* [Visual Studio Code](https://code.visualstudio.com/) - IDE and bug testing
+* [Git bash](https://git-scm.com/downloads) - Terminal for git commands
+* [Github](https://github.com/LittleBlue418) - Code repository, website hosting & deployment
+* [Font Awesome](https://fontawesome.com/) - Page icons
+* [Flat Icon](https://www.flaticon.com/) - Page icons
+* [Trello](https://trello.com/en) - Tracking tasks & bugs 
+* [WebAIM](https://webaim.org/resources/contrastchecker/) - Checking and adjusting colours to meet accesability requirements
+* [Coolors](https://coolors.co/) - Extracting colours from photograph of teapot and helping to build a colour scheme
+* [W3C Validation Service](https://jigsaw.w3.org/css-validator/#validate_by_input) - Validating my CSS code
+* [W3C Markup Validation Service](https://validator.w3.org/#validate_by_input) - Validating my HTML code
+* [Photoshop / Illustrator](https://www.adobe.com/se/creativecloud.html?gclid=CjwKCAjw1_PqBRBIEiwA71rmtVqgSn2vcdRcH6n_2tweCJ9feZvicaaHlyuOlJio4ZYG_y4iyvk9IBoCrLMQAvD_BwE&sdid=8JD95K3M&mv=search&ef_id=CjwKCAjw1_PqBRBIEiwA71rmtVqgSn2vcdRcH6n_2tweCJ9feZvicaaHlyuOlJio4ZYG_y4iyvk9IBoCrLMQAvD_BwE:G:s&s_kwcid=AL!3085!3!281036364465!e!!g!!adobe%20creative%20suite) - Photo editing, creating graphics, creating wireframes 
 
 ***
 ## Testing 
@@ -127,22 +113,67 @@ During the initial stages of the project I used **Chrome developer tools** for t
 
 Within **Visual Studio Code** I have used both the Debug feature, and several plugins to ensure that my code was as clean and correct as possible. Removing excess white spaces, highlighting any tags that may not have opening or closing tags to match and checking syntax.
 
-During the build process I have been **manualy testing**; ensuring that each button, link and icon that should perform an action would complete that action. 
+During the build process I have been **manualy testing**; ensuring that each button, link and icon that should perform an action would complete that action. I have tested on different screens and devices to ensure that everything looks and scales as it should. 
 
-colour contrast - web accesability
-linux 
+I ran the colours on the site through a **web accesability contrast checker** to ensure that everything would be of a high enough contrast to be easily visible. 
+
+I ran the HTML and the CSS through **W3C Validation services** to ensure that the code that i have written does not have any syntax errors. 
+
+I have tested the site in a range of **browsers** Chrome, Opera, Firefox, Microsoft edge. 
+
+Other people have tested the site for me, including friends and my Mentor 
+ 
 
 ***
 ## Deployment
 This site is hosted using Github pages, and is deployed directly from the master branch. You can view the website [here](https://littleblue418.github.io/Milestone1/.). 
 
-You can also host the site locally if you clone or download the repository, but given the user stories I have been working with I plan to eventualy host the site 
+You can also host the site locally if you clone or download the repository. 
+1. You can find the repository page [here](https://github.com/LittleBlue418/Milestone1)
+1. Click on the "clone or download" button at the top right
+1. Copy the URL
+1. Go to your Terminal aplication
+ 1. Change the current working directory to the location where you want your clone directory to be made
+ 1. Type 'git clone' and paste in the URL
+ 1. Press enter
+1. The local clone will now be created
+
+You can read more at this [Github help page](https://help.github.com/en/articles/cloning-a-repository) 
 
 ***
+
 ## Credits
 ### Content
+The text for this site was written by me.
 
 ### Media
+#### Flat Icons 
+All colours changed to match site scheme
+* [Book](https://www.flaticon.com/free-icon/open-magazine_88179#term=book&page=1&position=14) Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/"             title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/"             title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>
+* [Bouncer](https://www.flaticon.com/free-icon/bouncer_542122#term=bouncer&page=1&position=6) Icons made by <a href="https://www.flaticon.com/authors/creaticca-creative-agency" title="Creaticca Creative Agency">Creaticca Creative Agency</a> from <a href="https://www.flaticon.com/"             title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/"             title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>
+* [Clown](https://www.flaticon.com/free-icon/clown_106517#term=clown&page=1&position=15)
+Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/"             title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/"             title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>
+* [Gears](https://www.flaticon.com/free-icon/settings-gears_60473#term=gear&page=1&position=4) (*Icon used on downloadable CV*) Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/"             title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/"             title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>
+* [Handshake](https://www.flaticon.com/free-icon/hand-shake_1342#term=handshake&page=1&position=7) (*Icon used on downloadable CV*) Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/"             title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/"             title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>
+* [Lifeguard](https://www.flaticon.com/free-icon/rescuer_94067#term=lifeguard&page=1&position=85) Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/"             title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/"             title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>
+* [Plane](https://www.flaticon.com/free-icon/light-aircraft_1006329) Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/"             title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/"             title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>
+* [Surf](https://www.flaticon.com/free-icon/beach_1752946#term=surf&page=1&position=37) Icons made by <a href="https://www.flaticon.com/authors/darius-dan" title="Darius Dan">Darius Dan</a> from <a href="https://www.flaticon.com/"             title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/"             title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>
+* [Teapot](https://www.flaticon.com/free-icon/porcelain-teapot_2049#term=teapot&page=1&position=42) Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/"             title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/"             title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>
+
+#### Other Media
+[Site Image](https://github.com/LittleBlue418/Milestone1/blob/master/assets/images/LittleBlue418TransparentBackground.png) was taken by me, and edited by me in Photoshop (origional [here](https://github.com/LittleBlue418/Milestone1/blob/master/assets/wireframes/20190821_111906.jpg)).
+
+### Work Based On Other Code
+* The work history timeline code is based on the code from the Code Institute CV mini project. It has been modified to have larger 'balls' and be a colour that is more in-keeping with the site. It has also been given more padding. 
+
+* The skills section circles code has come from [bootstrapious](https://bootstrapious.com/p/circular-progress-bar), a free service that provides bootstrap templates. I have modified the code to remove some unwanted styling and lettering, and to add my own styling and formatting. The JavaScript that runs the code has not been changed.  
+
+* The Javascript to close the navbar automatically after a selection has been made has come from [stack overflow](https://stackoverflow.com/questions/14248194/close-responsive-navbar-automatically) and has not been changed. 
+
+* The 'scroll to top' JavaScript code (that enables the section opening AND the section to scroll to top functionality to work together) was written by me, BUT I recieved a lot of help from [another programmer](https://github.com/parmus), so it is origional *collaborative* code.  
+
 
 ### Acknowledgements 
-
+Thank you to my mentor Dick Vlaanderen, for reviewing the concept and for testing the site with me. 
+Thank you to the leads on Slack, particularly [Anthony O'Brien](https://github.com/auxfuse) who spent a very long call answering questions about the README file and assessment criteria. 
+Thank you to [Martin Parm](https://github.com/parmus) who helped me with the JavaScript, and finding bugs. 
