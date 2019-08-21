@@ -174,6 +174,6 @@ Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik"
 
 
 ### Acknowledgements 
-Thank you to my mentor Dick Vlaanderen, for reviewing the concept and for testing the site with me. 
-Thank you to the leads on Slack, particularly [Anthony O'Brien](https://github.com/auxfuse) who spent a very long call answering questions about the README file and assessment criteria. 
-Thank you to [Martin Parm](https://github.com/parmus) who helped me with the JavaScript, and finding bugs. 
+* Thank you to my mentor Dick Vlaanderen, for reviewing the concept and for testing the site with me. 
+* Thank you to the leads on Slack, particularly [Anthony O'Brien](https://github.com/auxfuse) who spent a very long call answering questions about the README file and assessment criteria. 
+* Thank you to [Martin Parm](https://github.com/parmus) who helped me with the JavaScript, and finding bugs. 
