@@ -241,6 +241,9 @@ h1.title, h2.role {
     height:56px;
     background-color: #007CAD;
     z-index: 10;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .navbar {
@@ -266,6 +269,7 @@ h1.title, h2.role {
 
 .material-icons {
     color: #ffffff;
+    font-size: 26px;
 }
 .nav-item {
     padding-left: 10px;
