@@ -29,6 +29,7 @@ $(function () {
 
 
 
+//Code written with Parmus https://github.com/parmus
 
   //target an inner section | for each (call this function)
 
@@ -60,6 +61,12 @@ $(function () {
       //create a collection containing the html page and the body | call the method 'animate' |
       $('html, body').animate(properties, 1000);
     })
+
+    $('form').on('submit',function(event){
+      event.preventDefault();
+      $('#emailNotificationModal').modal();
+    })
+  // end of code written with Parmus
 
   })
 

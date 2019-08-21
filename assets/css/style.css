@@ -252,12 +252,21 @@ h1.title, h2.role {
 }
 
 .navbar-toggler {
-margin-top: 8px;
-margin-bottom: 8px;
-margin-left: 10px;
-
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-left: 10px;
+    border: 1px solid rgb(155, 155, 158);
+    display: flex;
+    justify-content: center;
 }
 
+.navbar-toggler:hover  {
+    border-color: #ffffff;
+}
+
+.material-icons {
+    color: #ffffff;
+}
 .nav-item {
     padding-left: 10px;
     color: #ffffff;
