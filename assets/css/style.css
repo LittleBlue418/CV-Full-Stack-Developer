@@ -478,6 +478,7 @@ This section of code has been modified / written by me */
 .portfolio-inner-div {
     margin-right: auto;
     margin-left: auto;
+    justify-content: center;
 }
 
 .github-profile-box {
