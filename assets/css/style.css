@@ -21,10 +21,11 @@
 }
 
 .top-level-icon:hover {
-    color: #00719E;
+    color: #2E93BB;
 }
 .btn-primary:hover {
-    background-color: #00719E;
+    background-color: #2E93BB;
+    border-color: #2E93BB;
 }
 
 .skill-circle-colour {
@@ -75,6 +76,10 @@
     padding-bottom: 30px;
     display: flex;
     justify-content: center;
+}
+
+.fa-chevron-down:hover {
+    color: #2E93BB;
 }
 
 /*-------------------------------------------------Lines */
@@ -277,7 +282,7 @@ h1.title, h2.role {
 }
 
 .nav-item:hover {
-    background-color: #00719E;
+    background-color: #2E93BB;
 }
 
 /*-------------------------------------------------Footer */
