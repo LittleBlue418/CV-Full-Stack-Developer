@@ -320,17 +320,27 @@ h1.title, h2.role {
 /*-------------------------------------------------Work Experience section */
 
 .work-experience-container {
-    padding-left: 20px;
+    padding-left: 10px;
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
 .work-experience-item {
-    padding: 4em 2em 0em 2em;
+    padding: 4em 0em 0em 2em;
     position: relative;
     color: #007CAD;
     border-left: 2px solid;
     padding-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+    .work-experience-container {
+        padding-left: 20px;
+    }
+
+    .work-experience-item {
+        padding: 4em 2em 0em 2em;
+    }
 }
 
 .work-experience-item p {
