@@ -85,8 +85,8 @@ I wanted to display a range of features in this project, but not to overwhelm th
 
 
 ### Features Left to Implement 
-* In the future I would like to add more projects that i ave worked on, to display a greater range of skills. 
-* I would also like to impliment some animation on the skills circles, perhapse to have them 'filling up'. 
+* In the future I would like to add more projects that i have worked on, to display a greater range of skills. This will be possible once i have more projects to display.  
+* I would like to re-code the skill circles. Currently their size is not very customizable and they stretch to fill the column, while not an issue i would like to be able to have them take up less space on the page. I would also like to impliment some animation on the skills circles, perhapse to have them 'filling up'. 
 
 ***
 ## Technologies Used
