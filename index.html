@@ -20,6 +20,7 @@
 
 <body>
     <header>
+        <!-- Navbar -->
         <div class="navbar-container">
             <nav class="navbar ">
                 <button class="navbar-toggler" type="button" data-toggle="collapse"
@@ -59,10 +60,7 @@
                 </div>
             </nav>
         </div>
-
-
-
-
+        <!-- / end Navbar -->
 
         <!-- Image & Text -->
         <div class="row header-container">
@@ -81,7 +79,7 @@
 
 
     <article id="accordion">
-        <div id="about-me-section" class="page-section">
+        <section id="about-me-section" class="page-section">
             <div class="top-level-icon-container">
                 <a data-toggle="collapse" href="#aboutMeSection" role="button" aria-expanded="true"
                     aria-controls="aboutMeSection"> <i class="fas fa-user-astronaut main-blue top-level-icon"></i></a>
@@ -148,9 +146,9 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
 
-        <div id="work-history-section" class="page-section">
+        <section id="work-history-section" class="page-section">
             <div class="top-level-icon-container">
                 <a data-toggle="collapse" href="#workHistorySection" role="button" aria-expanded="false"
                     aria-controls="workHistorySection">
@@ -167,7 +165,7 @@
                             enthusiasm for technology and my passion for creativity.
                         </p>
 
-                        <!--This code heavily inspired by the Code Institute CV project,
+                        <!--This code inspired by the Code Institute CV project,
                          modifications to fit the styling of the website-->
                         <div class="work-experience-container">
                             <div class="work-experience-timeline">
@@ -305,9 +303,9 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
 
-        <div id="skill-section" class="page-section">
+        <section id="skill-section" class="page-section">
             <div class="top-level-icon-container">
                 <a data-toggle="collapse" href="#skillsSection" role="button" aria-expanded="false"
                     aria-controls="skillsSection"> <i class="fas fa-check-circle main-blue top-level-icon"></i></a>
@@ -328,7 +326,6 @@
 
                         <!-- This code is from https://bootstrapious.com/snippets
                          it has been modified-->
-
                         <div class="container py-5">
                             <div class="row skill-container">
                                 <!-- Progress bar 1 -->
@@ -417,9 +414,8 @@
                                 <!-- / 4 -->
                             </div>
                         </div>
-
-
                         <!--/. Code from bootstrapious-->
+
                         <div class="skill-text-box">
                             <h3 class="main-blue">Soft Skills</h3>
                             <p class="centered-text">
@@ -474,9 +470,9 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
 
-        <div id="portfolio-section" class="page-section">
+        <section id="portfolio-section" class="page-section">
             <div class="top-level-icon-container">
                 <a data-toggle="collapse" href="#portfolioSection" role="button" aria-expanded="false"
                     aria-controls="portfolioSection"> <i class="fas fa-palette main-blue top-level-icon"></i></a>
@@ -602,9 +598,9 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
 
-        <div id="contact-section" class="page-section">
+        <section id="contact-section" class="page-section">
             <div class="top-level-icon-container">
                 <a data-toggle="collapse" href="#contactMeSection" role="button" aria-expanded="false"
                     aria-controls="contactMeSection"> <i class="fas fa-comments main-blue top-level-icon"></i></a>
@@ -640,11 +636,11 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     </article>
 
     <!-- Modal -->
-    <div class="modal fade" id="emailNotificationModal" tabindex="-1" role="dialog"
+    <section class="modal fade" id="emailNotificationModal" tabindex="-1" role="dialog"
         aria-labelledby="emailNotificationModalTitle" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
@@ -666,7 +662,8 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
+    <!-- / end Modal -->
 
     <footer class="container-fluid">
         <div class="footer main-blue-background">
@@ -707,8 +704,8 @@
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
     <script src="assets/script/script.js"></script>
-
     <!-- /.JavaScript -->
+
 </body>
 
 </html>
