@@ -187,11 +187,15 @@ a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+
     padding-bottom: 30px;
     padding-top: 10px;
     padding-left: 15px;
     padding-right: 15px;
+}
+
+.inner-section-box-portfolio {
+    justify-content: space-between;
 }
 
 .col-12 {
