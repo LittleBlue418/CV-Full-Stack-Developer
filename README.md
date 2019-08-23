@@ -122,7 +122,7 @@ I ran the HTML and the CSS through **W3C Validation services** to ensure that th
 
 I have tested the site in a range of **browsers** Chrome, Opera, Firefox, Microsoft edge and Internet explorer. 
 
-Other people have tested the site for me, including my Mentor, friends and family, and my peers on the slack peer-code-review channel. You can red the **feedback**, as well as the steps that I have taken and implementations made as a result in [this document](https://github.com/LittleBlue418/Milestone1/blob/master/assets/wireframes/m1-feedback.docx). 
+Other people have tested the site for me, including my Mentor, friends and family, and my peers on the slack peer-code-review channel. You can red the **feedback**, as well as the steps that I have taken and implementations made as a result in [this document](https://github.com/LittleBlue418/Milestone1/blob/master/assets/wireframes/m1-feedback.pdf). 
 
 In the final stages of the project I used **Audit** within the **Chrome developer tools** to check the code for:
 * Performance 
