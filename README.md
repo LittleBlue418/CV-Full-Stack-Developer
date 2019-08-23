@@ -64,7 +64,7 @@ Feedback for each action consists of many established traditions, such as a colo
 Following on from the Structure plane I carefully constructed wireframes for small and large screens, focussing on keeping the consistent look and feel for the site as clean and minimal as possible. For many of the sections the whole section would scale with the screen, but it was important that any areas where there were multiple columns in a row (such as the 'extra information' drop downs, or the skills section) would function responsively and drop to a single column layout on mobile. 
 
 ##### Wireframes & Diagrams 
-You can view my wireframes and designs in this folder [here](https://github.com/LittleBlue418/Milestone1/tree/master/assets/wireframes)
+You can view the mobile wireframes [here](https://github.com/LittleBlue418/Milestone1/blob/master/assets/wireframes/Mobile%20Wireframes.pdf) and the desktop wireframes [here](https://github.com/LittleBlue418/Milestone1/blob/master/assets/wireframes/Desktop%20Wireframes.pdf). 
 
 ### Surface
 I decided to build the 'brand' for the website about my existing github profile, matching the profile image of the teapot and carrying through the same colour. I was careful to create a downloadable CV that also matched the same image and the same blue of the site. Similarly i echoed the round skill circles from the website in the Downloadable CV. 
