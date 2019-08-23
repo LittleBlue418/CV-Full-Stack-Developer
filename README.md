@@ -69,7 +69,7 @@ You can view my wireframes and designs in this folder [here](https://github.com/
 ### Surface
 I decided to build the 'brand' for the website about my existing github profile, matching the profile image of the teapot and carrying through the same colour. I was careful to create a downloadable CV that also matched the same image and the same blue of the site. Similarly i echoed the round skill circles from the website in the Downloadable CV. 
 
-<img src="https://github.com/LittleBlue418/Milestone1/blob/master/assets/wireframes/colourProfile.jpg" width="180" height="200" alt="colour profile for website" title="colour profile for website"/>
+<img src="https://github.com/LittleBlue418/Milestone1/blob/master/assets/wireframes/colour-profile.jpg" width="200" height="170" alt="colour profile for website" title="colour profile for website"/>
 
 ***
 
