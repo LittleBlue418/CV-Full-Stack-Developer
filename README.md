@@ -71,6 +71,15 @@ I decided to build the 'brand' for the website about my existing github profile,
 
 <img src="https://github.com/LittleBlue418/Milestone1/blob/master/assets/wireframes/colour-profile.jpg" width="200" height="170" alt="colour profile for website" title="colour profile for website"/>
 
+### Design Decisions
+During the UX design process I made two specific design decisions that I want to explain. 
+
+**To keep the nav bar as a 'hamburger' icon on both the traditional smaller screen, but also on a larger desktop screen.** 
+The target audience for this site, both the Employer and potential collaborators, will have a degree of computer litteracy. Given that this site is a display of my personality and skill I made the call not to expand out the navbar and show the menu items along the top on a larger screen as I felt that this would give the screen a cluttered feel. I trust that the users I am styling this site towards will recognize the 'hamburger' nav icon. Despite feedback from peers that this is not the way that they personally would have done it, I am happy with my decision, and backed up by the exact same design choice in the example 'top marks' website provided as assesment criteria. 
+
+**To keep the section head icons as simple icons, rather than including text**
+The argument for this decision is much the same as above, a design decision with the aim of keeping the website looking as clean and minimal as possible. I trust that the users I am styling this site towards will either recognize that the icons are buttons by their promenance (and lack of any other general page content) OR that they will recognize the 'on hover' function (desktop only) OR that when they first use the nav icon they will realize that the icons are hiding sections below them. If they user does not recognize that the icon is a button, they may always use the menu from any point on the screen to achieve the same effect.
+
 ***
 
 ## Features
