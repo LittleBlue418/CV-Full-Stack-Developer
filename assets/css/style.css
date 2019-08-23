@@ -488,8 +488,6 @@ This section of code has been modified / written by me */
 /*-------------------------------------------------Portfolio */
 
 .portfolio-inner-div {
-    margin-right: auto;
-    margin-left: auto;
     justify-content: center;
 }
 
