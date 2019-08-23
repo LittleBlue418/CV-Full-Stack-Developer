@@ -28,49 +28,30 @@ $(function () {
   // end of code from https://bootstrapious.com/snippets
 
 
-
-//Code written with Parmus https://github.com/parmus
-
-  //target an inner section | for each (call this function)
-
+  //Code written with Parmus https://github.com/parmus
   $('.inner-section').each(function () {
 
-    /* create a variable | put in the section we just found | call the method to find the first
-    parent element (with this matching name)*/
-    var section = $(this).closest('.page-section');
 
-    //create another variable | set it to the parent element we just found
+    var section = $(this).closest('.page-section');
     var offset = section.offset();
 
-    //TEST check we have targeted the correct element and it's giving us the location
-    console.log(section);
-    console.log(offset);
-
-    /* 'this' refers to the specific section of the each loop that we ran at the begining of
-    the page load | when ... happens: | the event 'shown' happens on the boostrap class
-    'collpse' | call this function */
     $(this).on('show.bs.collapse', function (event) {
 
-      //filters out the sub sections
       if (!$(event.target).hasClass('inner-section')) return;
 
-
-      /*create a new variable that contains only the position value 'top' for the element
-      that has just been expanded*/
       var properties = { scrollTop: offset.top };
 
-      //TEST that we have constructed the properties object.
-      console.log(properties);
-
-      //create a collection containing the html page and the body | call the method 'animate' |
       $('html, body').animate(properties, 1000);
     })
+  // end of code written with Parmus
 
-    $('form').on('submit',function(event){
+
+  // code from stack overflow https://stackoverflow.com/questions/14248194/close-responsive-navbar-automatically
+   $('form').on('submit',function(event){
       event.preventDefault();
       $('#emailNotificationModal').modal();
     })
-  // end of code written with Parmus
+  // end of code from stack overflow
 
   })
 
