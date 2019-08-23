@@ -120,11 +120,21 @@ I ran the colours on the site through a **web accesability contrast checker** to
 
 I ran the HTML and the CSS through **W3C Validation services** to ensure that the code that i have written does not have any syntax errors. 
 
-I have tested the site in a range of **browsers** Chrome, Opera, Firefox, Microsoft edge. 
+I have tested the site in a range of **browsers** Chrome, Opera, Firefox, Microsoft edge and Internet explorer. 
 
-Other people have tested the site for me, including friends and my Mentor 
+Other people have tested the site for me, including my Mentor, friends and family, and my peers on the slack peer-code-review channel. You can red the **feedback**, as well as the steps that I have taken and implementations made as a result in [this document](https://github.com/LittleBlue418/Milestone1/blob/master/assets/wireframes/m1-feedback.docx). 
 
-##### Interesting bugs
+In the final stages of the project I used **Audit** within the **Chrome developer tools** to check the code for:
+* Performance 
+* Accessibility 
+* Best Practices
+* SEO
+
+This was particularly useful in signposting me to small mistakes or things that i had missed that could improve accessibility or SEO significantly. 
+
+![Audit Results](https://github.com/LittleBlue418/Milestone1/blob/master/assets/wireframes/audit-report.png)
+
+#### Interesting bugs
 * By far the most challenging section of this code was the nav bar, looking through my commits I can see that I re-wrote the whole section of code four times, and have made more 'tweaks' to that section than any other. I started with some code from a previous CI example, and then tried to write my own. The final version is mostly bootstrap design with the bootstrap data toggle 'collapse', with the JavaScript 'scroll top' called on the collapse. 
 
 * A known bug is a slight 'up and down' effect when the JavaScript function 'scroll to top' is called for a longer section. The code works as it should, but because the section is so long it takes the browser a minute to scroll to the right place. This is particularly evident in the 'work history' section. A fix would be to remove the scroll to top (which would open a section out of the users sight, and cause confusion as there would be no visible feedback from their click) or to nest more of the content. I may decide to nest the information about previous jobs, but this would add another layer of nesting (and another click for the user) so I would do a lot more user testing before making that call.  
@@ -132,7 +142,8 @@ Other people have tested the site for me, including friends and my Mentor
 * A fun bug with the JavaScript 'scroll to top' was that in first instance of writing, the drop down arrows would cause the function to run. As such the user would click the drop down arrow for more information and would be immediately taken back to the top of that section. It was fixed with a single line of code, an if statement to filter out any elements calling the collapse function that were not page sections. 
 
 * A small side 'bug', which is less of a bug and more of an interesting discovery, was finding that bootstrap columns have a min-width which is almost impossible to over-rule with custom styling. For the single Github icon in the portfolio section (under the Octopus game) the inherited min-width for the column it was in meant that the icon was off center. After poking around in the chrome developer tools I was unable to re-size the column, so instead simply centered the icon within the coulmn.  
- 
+
+* Internet explorer could not load or format the image in the header correctly. After some research I realized that rather than have the image embedded directly into the HTML the best way around this would be to set it as a background image on the parent container. After further testing the scaling teapot image now works corectly on all browsers. 
 
 ***
 ## Deployment
