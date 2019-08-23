@@ -67,7 +67,7 @@ Following on from the Structure plane I carefully constructed wireframes for sma
 You can view the mobile wireframes [here](https://github.com/LittleBlue418/Milestone1/blob/master/assets/wireframes/Mobile%20Wireframes.pdf) and the desktop wireframes [here](https://github.com/LittleBlue418/Milestone1/blob/master/assets/wireframes/Desktop%20Wireframes.pdf). 
 
 ### Surface
-I decided to build the 'brand' for the website about my existing github profile, matching the profile image of the teapot and carrying through the same colour. I was careful to create a downloadable CV that also matched the same image and the same blue of the site. Similarly i echoed the round skill circles from the website in the Downloadable CV. 
+I decided to build the 'brand' for the website about my existing github profile, matching the profile image of the teapot and carrying through the same colour. I was careful to create a downloadable CV that also matched the same image and the same blue of the site. Similarly I echoed the round skill circles from the website in the [Downloadable CV](https://github.com/LittleBlue418/Milestone1/blob/master/assets/cv-hollythomas.pdf). 
 
 <img src="https://github.com/LittleBlue418/Milestone1/blob/master/assets/wireframes/colour-profile.jpg" width="200" height="170" alt="colour profile for website" title="colour profile for website"/>
 
