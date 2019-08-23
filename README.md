@@ -92,19 +92,11 @@ I wanted to display a range of features in this project, but not to overwhelm th
 ## Technologies Used
 * [HTML](https://en.wikipedia.org/wiki/HTML) - Main language used to structure the page.
 * [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) - Providing styling for the site.
-* [Bootstrap (4.3.1)](https://getbootstrap.com/) - Core structural elements such as the grid layout, button functionality and menu.
+* [Bootstrap](https://getbootstrap.com/) - Core structural elements such as the grid layout, button functionality and menu.
 * [JavaScript](https://en.wikipedia.org/wiki/JavaScript) - Adding functionality to the skill circles, as well as 'on click', 'hidden' and 'scroll'. 
-* [JQuery (4.3.1)](https://jquery.com/) - Supporting library for much of the JavaScript functionality. 
-* [Visual Studio Code](https://code.visualstudio.com/) - IDE and bug testing
-* [Git bash](https://git-scm.com/downloads) - Terminal for git commands
-* [Github](https://github.com/LittleBlue418) - Code repository, website hosting & deployment
+* [JQuery](https://jquery.com/) - Supporting library for much of the JavaScript functionality. 
 * [Font Awesome](https://fontawesome.com/) - Page icons
 * [Flat Icon](https://www.flaticon.com/) - Page icons
-* [Trello](https://trello.com/en) - Tracking tasks & bugs 
-* [WebAIM](https://webaim.org/resources/contrastchecker/) - Checking and adjusting colours to meet accesability requirements
-* [Coolors](https://coolors.co/) - Extracting colours from photograph of teapot and helping to build a colour scheme
-* [W3C Validation Service](https://jigsaw.w3.org/css-validator/#validate_by_input) - Validating my CSS code
-* [W3C Markup Validation Service](https://validator.w3.org/#validate_by_input) - Validating my HTML code
 * [Photoshop / Illustrator](https://www.adobe.com/se/creativecloud.html?gclid=CjwKCAjw1_PqBRBIEiwA71rmtVqgSn2vcdRcH6n_2tweCJ9feZvicaaHlyuOlJio4ZYG_y4iyvk9IBoCrLMQAvD_BwE&sdid=8JD95K3M&mv=search&ef_id=CjwKCAjw1_PqBRBIEiwA71rmtVqgSn2vcdRcH6n_2tweCJ9feZvicaaHlyuOlJio4ZYG_y4iyvk9IBoCrLMQAvD_BwE:G:s&s_kwcid=AL!3085!3!281036364465!e!!g!!adobe%20creative%20suite) - Photo editing, creating graphics, creating wireframes 
 
 ***
@@ -137,27 +129,54 @@ Other people have tested the site for me, including friends and my Mentor
 ## Deployment
 This site is hosted using Github pages, and is deployed directly from the master branch. You can view the website [here](https://littleblue418.github.io/Milestone1/.). 
 
-You can also host the site locally if you clone or download the repository. 
+### Deployment Process
+To deploy this site to Github you can follow these steps. 
+1. In your Github profile create a new repository, make sure to give it a unique name.
+1. Copy the remot repository URL from the Quick setup page.
+1. Open your Terminal aplication
+ 1. `cd` untill you are in the folder that contains your project. 
+ 1. `git init` to create a .git file (make sure that you also have a README file).
+ 1. `git add .` will add all of your code and files
+ 1. `git commit -m "initial commit` Leave a commit message
+ 1. `git remote add origin [https://...]` Paste in the remot repository URL from the Quick setup page in your new Github repository
+ 1. `git push -u origin master` will push everything to your new repository 
+1. In the settings tab of your new repository scroll down untill you see the Github pages setting and select 'master'. 
+1. You can now see the link to your Github pages, make sure to paste it into your README file! 
+
+
+You can read more at this [Github help page](https://help.github.com/en/articles/adding-an-existing-project-to-github-using-the-command-line) 
+ 
+### Local Development
+To host this site locally, or work on the code yourself, you can clone or download the repository. 
 1. You can find the repository page [here](https://github.com/LittleBlue418/Milestone1)
 1. Click on the "clone or download" button at the top right
 1. Copy the URL
 1. Go to your Terminal aplication
- 1. Change the current working directory to the location where you want your clone directory to be made
- 1. Type 'git clone' and paste in the URL
+ 1. `cd` Change the current working directory to the location where you want your clone directory to be made
+ 1. Type `git clone` and paste in the URL
  1. Press enter
 1. The local clone will now be created
 
 You can read more at this [Github help page](https://help.github.com/en/articles/cloning-a-repository) 
 
+ 
 ***
 
 ## Credits
 ### Content
 The text for this site was written by me.
 
+### Websites
+* [Visual Studio Code](https://code.visualstudio.com/) - IDE and bug testing
+* [Git bash](https://git-scm.com/downloads) - Terminal for git commands
+* [Github](https://github.com/LittleBlue418) - Code repository, website hosting & deployment
+* [Trello](https://trello.com/en) - Tracking tasks & bugs 
+* [WebAIM](https://webaim.org/resources/contrastchecker/) - Checking and adjusting colours to meet accesability requirements
+* [Coolors](https://coolors.co/) - Extracting colours from photograph of teapot and helping to build a colour scheme
+
 ### Media
 #### Flat Icons 
-All colours changed to match site scheme
+Icons credited as asked for by the site. All colours changed to match site scheme.
 * [Book](https://www.flaticon.com/free-icon/open-magazine_88179#term=book&page=1&position=14) Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/"             title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/"             title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>
 * [Bouncer](https://www.flaticon.com/free-icon/bouncer_542122#term=bouncer&page=1&position=6) Icons made by <a href="https://www.flaticon.com/authors/creaticca-creative-agency" title="Creaticca Creative Agency">Creaticca Creative Agency</a> from <a href="https://www.flaticon.com/"             title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/"             title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>
 * [Clown](https://www.flaticon.com/free-icon/clown_106517#term=clown&page=1&position=15)
