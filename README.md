@@ -1,8 +1,6 @@
-# Milestone Project 1
+# CV Website
 
 ## Project Summary
-
-This is my online CV for my role as a Full-stack Web Developer, built as my firts milestone project for the Code Institute Full-Stack developer course. 
 
 This portfolio is designed to be shown to potential employers and collaborators, with a view to both applying for work, and encouraging collaboration with other developers. The portfolio highlights the skills that I have gained on this course, as well as other skills that I have developed in previous roles and soft skills that I can bring to the table. 
 
@@ -11,7 +9,7 @@ My goal with this project was to create a clean and minimal single page site, wi
 ***
 ## Website
 
-You can view the website [here](https://littleblue418.github.io/Milestone1/.)
+You can view the website [here](https://littleblue418.github.io/CV-Website/)
 
 ***
 ## UX
